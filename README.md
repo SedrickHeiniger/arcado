@@ -1,0 +1,1 @@
+Application with mini games
