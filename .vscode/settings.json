@@ -1,0 +1,78 @@
+{
+  // Languages
+  "json.format.enable": false, // Using Prettier
+  "yaml.format.enable": true, // Using Red Hats YAML Extension
+  "xml.format.enabled": true, // Using Red Hats XML Extension
+  "markdown.validate.enabled": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // Dart
+  "dart.doNotFormat": [],
+  "dart.lineLength": 80,
+  "dart.env": {},
+  // files
+  "files.encoding": "utf8", // Dart expects UTF-8
+  "files.exclude": {
+    // VSCode Project
+    ".vscode": true,
+    ".prettierrc.yaml": true,
+    ".cspell": true,
+    "cspell.config.yaml": true,
+    ".github": true,
+    // Flutter Project
+    "pubspec.lock": true,
+    "**/*.iml": true,
+    ".dart_tool": true,
+    ".idea": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    // Native Folders
+    "android": false,
+    "windows": false,
+    "linux": false,
+    "macos": false,
+    "web": false,
+    "ios": false,
+  },
+  "search.exclude": {
+    // VS Code Project
+    ".vscode": false,
+    ".prettierrc.yaml": false,
+    // Flutter Project
+    ".dart_tool": true,
+    ".flutter-plugins": false,
+    ".flutter-plugins-dependencies": false,
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit",
+  },
+  // Prettier (These are fallbacks for .prettierrc.yaml)
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "prettier.ignorePath": ".prettierignore",
+  "prettier.configPath": ".prettierrc.yaml",
+  // todo-tree
+  "todo-tree.general.tags": ["TODO", "FIXME", "HACK", "UNDONE"],
+  "todo-tree.filtering.includeHiddenFiles": true,
+  "todo-tree.filtering.excludeGlobs": [],
+  // markdown
+  "markdown.extension.tableFormatter.enabled": false,
+  "markdown.extension.tableFormatter.delimiterRowNoPadding": false,
+  "markdown.extension.tableFormatter.normalizeIndentation": false,
+  "markdown.validate.unusedLinkDefinitions.enabled": "ignore",
+  "markdown.editor.updateLinksOnPaste.enabled": false,
+  // (Unordered)
+  "debug.onTaskErrors": "abort",
+  "terminal.integrated.suggest.builtinCompletions": {
+    "pwshGit": true,
+    "pwshCode": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
+}

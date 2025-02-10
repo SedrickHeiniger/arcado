@@ -1,0 +1,29 @@
+{
+  "Programming Section": {
+    "scope": "javascript,typescript",
+    "prefix": ["header"],
+    "isFileTemplate": false,
+    "body": [
+      "$LINE_COMMENT ============================================================================",
+      "$LINE_COMMENT  ${1:SECTION HEADER}",
+      "$LINE_COMMENT ============================================================================${0}"
+    ]
+  },
+  "Programming Divider": {
+    "scope": "javascript,typescript",
+    "prefix": ["div"],
+    "isFileTemplate": false,
+    "body": [
+      "$LINE_COMMENT ----------------------------------------------------------------------------${0}"
+    ]
+  },
+  "Dart File Template": {
+    "scope": "dart",
+    "prefix": ["dartFile"],
+    "isFileTemplate": true,
+    "description": "Template for a new dart file.",
+    "body": [
+      "$LINE_COMMENT Not Implemented Yet${0}"
+    ]
+  }
+}

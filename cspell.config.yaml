@@ -1,0 +1,22 @@
+version: '0.2'
+words: []
+ignoreWords: []
+import: []
+dictionaries:
+  - flutter-terms
+  - project-terms
+ignorePaths:
+  - '.git/{info,lfs,logs,refs,objects}/**'
+  - '.git/{index,*refs,*HEAD}'
+  - '.vscode'
+  - '.vscode-insiders'
+  - '.metadata'
+  - '.pubspec.lock'
+  - '{lib,linux,macos,web,windows,ios,android,build}/**'
+dictionaryDefinitions:
+  - name: flutter-terms
+    path: ./.cspell/flutter-terms.txt
+    addWords: true
+  - name: project-terms
+    path: ./.cspell/project-terms.txt
+    addWords: true
